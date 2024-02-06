@@ -21,7 +21,7 @@ def change_resolution():
     subprocess.run(command, shell=True)
     print(f"Resolution changed to: {width}x{height}")  # Optional: Print the new resolution
 
-# Set a hotkey for changing the resolution, e.g., ctrl+shift+r
+# Set a hotkey for changing the resolution, e.g., ctrl+shift+r. You can also create a keyboard macro
 keyboard.add_hotkey('ctrl+shift+r', change_resolution)
 
 # Keep the script running
